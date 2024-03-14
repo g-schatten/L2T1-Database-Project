@@ -6,7 +6,7 @@ to run this code, you need to restore the databse "codeforces" to run this appli
 
 after this, go to `/server/db/db.js` and change the password to your password.
 
-
+# setup
 **step 1: setup server folder**
 
 `cd server`, then `npm init`
@@ -27,7 +27,7 @@ in the same directory, `npm install react react-dom react-router-dom`
 
 now, you are all setup. open two terminals. one directed in `/server` and another in `/client/src`.
 
-
+# run
 **in server side:** `nodemon server`
 
 **in client side:** `npm start`
