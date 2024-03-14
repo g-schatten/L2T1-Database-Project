@@ -79,6 +79,7 @@ const ProblemDetailsPage = () => {
       <div className="problem-content">
         <div className="problem-statement">
           <h2>{problem.problem_title}</h2>
+          <p className="small-text" align='center'> Rating: {problem.rating}</p>
           <div className="problem-description" dangerouslySetInnerHTML={{ __html: problem.problem_description }} />
           <div className="input-output">
             <h3>Sample Input</h3>

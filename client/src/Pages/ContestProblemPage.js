@@ -64,6 +64,7 @@ const ContestProblemPage = () => {
             {problem && (
                 <div className="problem-container">
                     <h2>{problem.problem_title}</h2>
+                    <p class="small-text" align="center">Rating: {problem.rating}</p>
                     <div className="problem-info">
                         <p>{problem.problem_description}</p>
                     </div>
