@@ -1,0 +1,76 @@
+/* client/src/styles/ContestDetailsPage.css */
+
+/* Style for the container */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Style for the contest title */
+h1 {
+  font-size: 2em;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Style for the contest description */
+.contest-description {
+  background-color: #f0f0f0;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+/* Expand Description Box Width */
+p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+  width: 100%; /* Set width to 100% */
+}
+
+/* Style for the problems section */
+.problems {
+  width: 60%;
+  align-items: left;
+}
+
+/* Style for the problems list */
+.problems ul {
+  list-style: none;
+  padding: 0;
+  text-align: left; /* Align problems to the left */
+}
+
+/* Style for each individual problem */
+.problems li {
+  display: flex;
+  align-items: left;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  background-color: #f9f9f9;
+  cursor: pointer;
+}
+
+.problems li:hover {
+  background-color: #e5e5e5;
+}
+
+/* Style for the problem title */
+.problem-title {
+  flex: 1;
+}
+
+/* Style for the tags section */
+.tags {
+  display: flex;
+}
+
+/* Style for each individual tag */
+.tag {
+  margin-left: 5px;
+  padding: 5px;
+  background-color: #ccc;
+  cursor: pointer;
+}

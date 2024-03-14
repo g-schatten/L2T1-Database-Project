@@ -1,0 +1,42 @@
+/* GymDetailsPage.css */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  h1 {
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  
+  .problems {
+    width: 60%;
+  }
+  
+  .problems ul {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+  }
+  
+  .problems li {
+    margin-bottom: 20px;
+  }
+  
+  .problem-title {
+    font-size: 1.2em;
+  }
+  
+  .hints, .solution {
+    font-size: 1em;
+  }
+  

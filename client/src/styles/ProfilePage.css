@@ -1,0 +1,44 @@
+/* ProfilePage.css */
+
+.profile-container {
+    text-align: center;
+    padding: 20px;
+    position: relative;
+  }
+  
+  /* Adjust the size of the Codeforces logo */
+  #codeforces-logo {
+    max-width: 50px; /* Adjust the width as needed */
+    height: auto;
+  }
+  
+  /* Style the user profile title */
+  .profile-title {
+    margin-top: 100px; /* Adjust the top margin to move the title lower */
+    font-size: 27px;
+  }
+  
+  /* Profile details container */
+  .profile-details {
+    margin-top: 20px;
+  }
+  
+  /* Smaller box for user details */
+  .profile-info {
+    background-color: #f3f3f3;
+    width: 600px; /* Fixed width for the user details box */
+    margin: 0 auto; /* Center the box horizontally */
+    border: 1px solid #ffffff; /* Add a border */
+    padding: 86px; /* Add padding */
+  }
+  
+  /* Style the user details */
+  .profile-info p {
+    margin: 15px 0; /* Add vertical margin between paragraphs */
+  }
+  
+  /* Ensure the color of the user name matches the user's color */
+  .user-name {
+    color: var(--user-color); /* Use a custom CSS variable or specify the color directly */
+  }
+  

@@ -1,0 +1,39 @@
+/* client/src/styles/RegisterPage.css */
+
+.register-container {
+    text-align: center;
+    padding: 20px;
+    position: relative;
+  }
+  
+  .register-container h2 {
+    margin-bottom: 20px;
+  }
+  
+  .register-container form {
+    margin-top: 20px;
+  }
+  
+  .register-container label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .register-container input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .register-container button {
+    padding: 10px;
+    background-color: #61dafb;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .register-container button:hover {
+    background-color: #4fa3d1;
+  }
+  

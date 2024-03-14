@@ -1,0 +1,49 @@
+
+/* GymPage.css */
+
+#codeforces-logo {
+  cursor: pointer;
+}
+  
+#codeforces-logo img {
+  max-width: 200px;
+  height: auto;
+}
+  
+/* Apply hover effect to the logo */
+#codeforces-logo:hover {
+  opacity: 0.8;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+  
+h2 {
+  text-align: center;
+}
+  
+.gym-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(786px, 1fr));
+  gap: 20px;
+}
+  
+.gym-box {
+  padding: 20px;
+  border: 1px solid #ddd;
+  background-color: #f9f9f9;
+  cursor: pointer;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+  
+.gym-box:hover {
+  background-color: #e5e5e5;
+}
+  

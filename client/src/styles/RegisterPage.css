@@ -1,0 +1,48 @@
+/* client/src/styles/RegisterPage.css */
+
+.register-container {
+  text-align: center;
+  padding: 40px;
+  position: relative;
+  background-color: #dbdbdb;
+  border-radius: 10px;
+  width: 400px;
+  margin: 50px auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.register-container img {
+  max-width: 100px;
+  height: auto;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.register-container h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.register-container form {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.register-container label {
+  display: block;
+  margin-bottom: 10px;
+  text-align: left;
+  color: #333;
+}
+
+.register-container input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}

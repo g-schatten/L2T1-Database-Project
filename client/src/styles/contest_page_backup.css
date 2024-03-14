@@ -1,0 +1,51 @@
+/* client/src/styles/ContestPage.css */
+
+h2 {
+    text-align: center;
+  }
+  
+  div {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  input {
+    padding: 5px;
+    margin-right: 10px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+    cursor: pointer;
+  }
+  
+  li:hover {
+    background-color: #e5e5e5;
+  }
+
+  /* Add styling for the Codeforces logo at the top left corner */
+#codeforces-logo {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  cursor: pointer;
+}
+
+#codeforces-logo img {
+  max-width: 200px;
+  height: auto;
+}
+
+/* Apply hover effect to the logo */
+#codeforces-logo:hover {
+  opacity: 0.8;
+}
+  

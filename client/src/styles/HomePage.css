@@ -1,0 +1,40 @@
+/* client/src/styles/HomePage.css */
+
+.home-page {
+  text-align: center;
+}
+
+.header {
+  background-color: #ffffff;
+  color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.options-bar {
+  display: flex;
+  text-align: center;
+}
+
+.option {
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.profile-option {
+  cursor: pointer;
+  white-space: nowrap; /* Prevent line breaks */
+  overflow: hidden; /* Hide overflowing content */
+  text-overflow: ellipsis; /* Add ellipsis (...) for overflow */
+  background-color: #4caf50;
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.content {
+  margin-top: 20px;
+}

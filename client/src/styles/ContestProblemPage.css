@@ -1,0 +1,71 @@
+.contest-problem-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.problem-container {
+  width: 80%;
+  max-width: 800px;
+  padding: 20px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+.logo {
+  width: 50px;
+  margin-bottom: 20px;
+}
+
+.problem-info h2 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.problem-info p {
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.problem-cases {
+  display: flex;
+  justify-content: space-between;
+}
+
+.problem-cases .input-case,
+.problem-cases .output-case {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.problem-cases h3 {
+  margin-bottom: 10px;
+}
+
+textarea {
+  width: 100%;
+  height: 100px;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}

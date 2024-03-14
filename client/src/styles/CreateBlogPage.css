@@ -1,0 +1,35 @@
+.create-blog-page {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  .create-blog-page form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .create-blog-page form label {
+    margin-bottom: 10px;
+  }
+  
+  .create-blog-page form input,
+  .create-blog-page form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+  }
+  
+  .create-blog-page form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .create-blog-page form button:hover {
+    background-color: #0056b3;
+  }
+  
