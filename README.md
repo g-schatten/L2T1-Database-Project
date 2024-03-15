@@ -2,7 +2,9 @@
 
 this is a codeforces like react app made with PERN stack.
 
-to run this code, you need to restore the databse "codeforces" to run this application.
+**Setup Databse**
+
+to run this application, you need to restore the database "codeforces" from pgAdmin using `lastProjectBackup.sql`.
 
 after this, go to `/server/db/db.js` and change the password to your password.
 
