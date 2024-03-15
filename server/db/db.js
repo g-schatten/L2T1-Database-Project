@@ -1,13 +1,13 @@
+// /server/db/db.js
+
 const Pool = require('pg').Pool;
 
 const pool = new Pool({
-    user: 'postgres',
-    password: 'qwerasdf',
-    host: 'localhost',
-    port: 5432,
-    database: 'codeforces',//it will be the name of the database
-    //max: 10, // Maximum number of connections in the pool
-    //idleTimeoutMillis: 30000, // Time a connection can be idle before being closed
+    user: process.env.DB_USER,
+    password: process.env.DB_PASSWORD,
+    host: process.env.DB_HOST,
+    port: process.env.DB_PORT,
+    database: process.env.DB_DATABASE
 });
 
 module.exports = pool;
